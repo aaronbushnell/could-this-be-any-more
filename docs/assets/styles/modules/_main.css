@@ -9,5 +9,6 @@
   @media (min-width: 35em) {
     flex-wrap: nowrap;
     height: 100%;
+    padding: 2rem;
   }
 }
