@@ -5,6 +5,21 @@
  *  box-sizing, body background/font-family and more.
  */
 
+@keyframes pulse {
+  0% {
+    background-color: #ee4d76;
+  }
+  33% {
+    background-color: #834ff8;
+  }
+  66% {
+    background-color: #f86e4f;
+  }
+  100% {
+    background-color: #4ff8d9;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,4 +31,18 @@ img {
 html,
 body {
   height: 100%;
+}
+
+body {
+  animation: 45s pulse infinite alternate;
+  background-color: #ee4d76;
+
+  &::before {
+    background: url('/assets/images/squiggly.svg');
+    content: "";
+    position: absolute;
+    opacity: .1;
+    height: 100%;
+    width: 100%;
+  }
 }
