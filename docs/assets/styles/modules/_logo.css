@@ -21,11 +21,11 @@
 }
 
 .logo {
-  padding: 3rem 3rem 0 3rem;
+  width: 20rem;
   will-change: transform;
 
-  @media (min-width: 35em) {
-    padding: 0;
+  @media (min-width: 60em) {
+    width: auto;
   }
 
   &:hover {

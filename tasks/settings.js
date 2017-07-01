@@ -5,7 +5,7 @@ module.exports = {
       "./docs/compiled/*.js",
       "./docs/*.html"
     ],
-    "server": "src", // use this if it IS a static site
+    "server": "docs", // use this if it IS a static site
     // "proxy": "", // use this if it's NOT a static site, ex: app.mysite.dev
     "notify": false,
     "open": false
