@@ -1,0 +1,19 @@
+@import "normalize.css";
+@import "base/variables";
+@import "base/mixins";
+@import "base/base";
+@import "base/typography";
+@import "modules/*";
+
+body {
+  background-color: #ee4d76;
+}
+
+body::before {
+  background: url('/assets/images/squiggly.svg');
+  content: "";
+  position: absolute;
+  opacity: .1;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+.listen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+
+  @media (min-width: 35em) {
+    margin-top: 0;
+  }
+
+  &__apple {
+    cursor: not-allowed;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__apple:hover + &__label {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  &__label {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    flex: 1 0 100%;
+    margin-top: .25rem;
+    text-shadow: 0 2px 1px rgb(140, 36, 63);
+    opacity: 0;
+    transform: translate3d(0, -1rem, 0);
+    transition:
+      opacity .2s,
+      transform .2s,
+      visibility .2s;
+    visibility: hidden;
+    will-change:
+      opacity,
+      transform,
+      visibility;
+  }
+}
