@@ -1,8 +1,8 @@
 module.exports = {
   "browsersync": {
     "files": [
-      "./docs/_compiled/styles.css",
-      "./docs/_compiled/*.js",
+      "./docs/compiled/styles.css",
+      "./docs/compiled/*.js",
       "./docs/*.html"
     ],
     "server": "src", // use this if it IS a static site
