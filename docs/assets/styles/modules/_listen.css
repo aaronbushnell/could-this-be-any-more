@@ -25,11 +25,11 @@
 
   &__label {
     color: #fff;
-    font-size: 1.75rem;
+    font-size: 1.875rem;
     font-weight: bold;
     flex: 1 0 100%;
-    margin-top: .25rem;
-    text-shadow: 0 2px 1px rgb(140, 36, 63);
+    margin-top: .15rem;
+    text-shadow: 0 1px 1px #711c32;
 
     @media (min-width: 35em) {
       opacity: 0;
