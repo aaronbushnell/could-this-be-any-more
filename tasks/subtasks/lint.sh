@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-./node_modules/.bin/stylelint './src/assets/styles/**/*.css' --color &&
-./node_modules/.bin/xo './src/assets/scripts/**/*.js' --color
+./node_modules/.bin/stylelint './docs/assets/styles/**/*.css' --color &&
+./node_modules/.bin/xo './docs/assets/scripts/**/*.js' --color

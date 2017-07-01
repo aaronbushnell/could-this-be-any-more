@@ -2,8 +2,8 @@ const settings = require('../settings.js');
 const Version = require('node-version-assets');
 const globby = require('globby');
 const assets = [
-  'src/_compiled/*.css',
-  'src/_compiled/*.js'
+  'docs/_compiled/*.css',
+  'docs/_compiled/*.js'
 ];
 
 globby(assets).then(paths => {
