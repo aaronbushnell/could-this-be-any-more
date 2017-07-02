@@ -1,0 +1,18 @@
+.content {
+  color: #fff;
+  margin: 2rem 0 0 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+
+  @media (min-width: 50em) {
+    margin: 0 0 0 2rem;
+  }
+
+  h1 {
+    margin: 0 0 1rem;
+  }
+
+  p {
+    font-size: 1.35rem;
+    line-height: 1.4;
+  }
+}

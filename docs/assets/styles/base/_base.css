@@ -34,8 +34,11 @@ body {
 }
 
 body {
-  animation: 45s pulse infinite alternate;
   background-color: #ee4d76;
+
+  &.animated {
+    animation: 45s pulse infinite alternate;
+  }
 
   &::before {
     background: url('/assets/images/squiggly.svg');

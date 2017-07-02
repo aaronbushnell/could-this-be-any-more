@@ -6,7 +6,7 @@
   position: relative;
   text-align: center;
 
-  @media (min-width: 35em) {
+  @media (min-width: 50em) {
     margin-top: 0;
   }
 

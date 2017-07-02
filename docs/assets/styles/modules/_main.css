@@ -10,7 +10,7 @@
   width: 80%;
   z-index: 2;
 
-  @media (min-width: 35em) {
+  @media (min-width: 50em) {
     flex-wrap: nowrap;
     height: 100%;
     padding-top: 0;
