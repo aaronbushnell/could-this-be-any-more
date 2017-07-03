@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="/styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 
-  <meta name="description" content='{{site.description}}'>
+  <meta name="description" content='{% if page.desc %}{{page.desc}}{% else %}{{site.description}}{% endif %}'>
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{site.twitter_username}}">
-  <meta name="twitter:title" content="{{site.title}}">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}} | {% endif %}{{site.title}}">
   <meta name="twitter:image" content="{{site.url}}/images/hd.png">
-  <meta name="twitter:description" content='{{site.description}}'>
+  <meta name="twitter:description" content='{% if page.desc %}{{page.desc}}{% else %}{{site.description}}{% endif %}'>
 
-  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{site.url}}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{% if page.url %}{{site.url}}{{page.url}}{% else %}{{site.url}}{% endif %}">
   <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
-  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{site.title}}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{% if page.title %}{{page.title}} | {% endif %}{{site.title}}">
   <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{site.url}}/images/hd.png">
-  <meta prefix="og: http://ogp.me/ns#" property="og:description" content='{{site.description}}'>
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content='{% if page.desc %}{{page.desc}}{% else %}{{site.description}}{% endif %}'>
 </head>
   <header class="header">
     <a href="/" class="header__logo">
