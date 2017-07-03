@@ -1,0 +1,40 @@
+/**
+ * Typography
+ *
+ * These are top-level styles for the site typography. Styles for h1-h6
+ *  body copy, paragraphs and more.
+ */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+blockquote,
+li,
+p {
+  line-height: 1.35;
+
+  @media (min-width: 50em) {
+    font-size: 1.2rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  color: #ee4d76;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

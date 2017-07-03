@@ -1,0 +1,12 @@
+.post {
+  margin-bottom: 3rem;
+
+  &__description {
+    color: #555;
+    font-size: .9rem;
+  }
+
+  p {
+    margin: 0 0 1rem;
+  }
+}

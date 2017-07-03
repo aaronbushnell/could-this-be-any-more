@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Page not found!</h1>
+<p>Oh no! We could track down what it was you were looking for. Maybe one of the following links is helpful to you:</p>
+<ul>
+  <li>
+    {% for post in site.posts limit: 1 %}
+      <a href="{{post.url}}">"{{post.slug}}: {{post.title}}" &mdash; The latest episode</a>
+    {% endfor %}
+  </li>
+  <li><a href="/">All Episodes</a></li>
+  <li><a href="https://twitter.com/couldthisbam">Twitter</a></li>
+  <li><a href="/feed.rss">RSS Feed</a></li>
+</ul>

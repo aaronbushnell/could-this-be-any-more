@@ -1,0 +1,41 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title>{{site.title}}</title>
+    <link>{{site.url}}</link>
+    {% for post in site.posts limit:1 %}<lastBuildDate>{{post.date | date_to_rfc822}}</lastBuildDate>{% endfor %}
+    <language>en-US</language>
+    <itunes:author>Aaron and Erica Bushnell</itunes:author>
+    <itunes:subtitle>{{site.description}}</itunes:subtitle>
+    <itunes:summary>{{site.description}}</itunes:summary>
+    <description>{{site.description}}</description>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>{{site.email}}</itunes:name>
+      <itunes:email>{{site.email}}</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Comedy"/>
+    <itunes:image href="{{site.url}}/images/hd.png"/>
+    {% for post in site.posts %}<item>
+      <title>{{post.slug}}: {{post.title}}</title>
+      <itunes:title>{{post.slug}}: {{post.title}}</itunes:title>
+      <itunes:episode>{{post.slug}}</itunes:episode>
+      <dc:creator>Aaron and Erica Bushnell</dc:creator>
+      <pubDate>{{post.date | date_to_rfc822}}</pubDate>
+      <link>{{site.url}}{{post.url}}</link>
+      <guid isPermaLink="false">{{site.url}}{{post.url}}</guid>
+      <description><![CDATA[{{post.content}}]]></description>
+      <itunes:author>Could This Be Any More...?</itunes:author>
+      <itunes:subtitle>{{post.desc}}</itunes:subtitle>
+      <itunes:summary>{{post.desc}}</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>{{post.duration}}</itunes:duration>
+      <itunes:image href="{{site.url}}/images/hd.png"/>
+      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/{{post.slug}}.mp3" length="{{post.size}}" type="audio/mpeg"/>
+    </item>{% endfor %}
+  </channel>
+</rss>

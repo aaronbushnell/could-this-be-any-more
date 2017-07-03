@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{page.title}} | {% endif %}{{site.title}}</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+  <meta name="description" content='{{site.description}}'>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{site.twitter_username}}">
+  <meta name="twitter:title" content="{{site.title}}">
+  <meta name="twitter:image" content="{{site.url}}/images/hd.png">
+  <meta name="twitter:description" content='{{site.description}}'>
+
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{site.url}}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{site.title}}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{site.url}}/images/hd.png">
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content='{{site.description}}'>
+</head>
+  <header class="header">
+    <a href="/" class="header__logo">
+      <img src="/images/logo.svg" alt="{{site.title}}">
+    </a>
+
+    <p class="header__description">{{site.description}}</p>
+
+    <nav class="header__nav">
+      {% for post in site.posts limit: 1 %}
+        <a href="{{post.url}}">Latest Episode</a>
+      {% endfor %}
+      <a href="/">All Episodes</a>
+      <a href="https://twitter.com/couldthisbam">Twitter</a>
+      <a href="/feed.rss">Feed</a>
+      <a href="https://itunes.apple.com/us/podcast/could-this-be-any-more/id1254927655">
+        <img src="/images/apple-podcast.svg" alt="Listen to {{site.title}} on Apple Podcasts!">
+      </a>
+    </nav>
+  </header>
+
+  <main class="main">
+    {{content}}
+
+    <p class="thank-you">Thank you very much for listening to us 😊</p>
+  </main>
+</body>
+</html>

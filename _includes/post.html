@@ -1,0 +1,25 @@
+<article class="post">
+  <{{include.titleTag}} class="title">
+    <span class="title__badge">EP {{include.episodeNum}}</span>
+    {% if include.link %}
+      <a href="{{include.link}}">{{include.title}}</a>
+    {% else %}
+      {{include.title}}
+    {% endif %}
+  </{{include.titleTag}}>
+
+  <ul class="meta">
+    <li>{{include.date | date: "%B %e, %Y"}}</li>
+    <li>{{include.duration}}</li>
+  </ul>
+
+  <p class="post__description">{{include.desc}}</p>
+
+  {% if include.showPlayer %}
+    <audio class="player" controls>
+      <source src="https://s3.amazonaws.com/aaronbushnell/ctbam/{{include.episodeNum}}.mp3" type="audio/mpeg">
+    </audio>
+  {% endif %}
+
+  {{include.content}}
+</article>
