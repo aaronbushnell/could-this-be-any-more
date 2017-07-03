@@ -2,8 +2,8 @@
   "name": "couldthis",
   "version": "1.0.0",
   "scripts": {
-    "build": "./tasks/build.sh",
-    "start": "./tasks/watch.sh"
+    "build": "./tasks/build.sh && bundle exec jekyll build",
+    "start": "./tasks/watch.sh & bundle exec jekyll serve"
   },
   "license": "MIT",
   "devDependencies": {
