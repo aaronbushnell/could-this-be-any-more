@@ -4,6 +4,6 @@ title: "The Pilot"
 date: 2017-07-01 21:52:46
 desc: "Kicking the show off with a short introduction"
 duration: "00:06:39"
-size: "12767734"
+size: "13145382"
 ---
 Aaron and Erica kick things off by discussing what this podcast is, the format of the show and what's in store for upcoming episodes.
