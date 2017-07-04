@@ -35,9 +35,9 @@
       <itunes:subtitle>Kicking the show off with a short introduction</itunes:subtitle>
       <itunes:summary>Kicking the show off with a short introduction</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>00:06:39</itunes:duration>
+      <itunes:duration>00:06:41</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/0.mp3" length="13145382" type="audio/mpeg"/>
+      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/0.mp3" length="13023499" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
