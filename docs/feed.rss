@@ -3,7 +3,7 @@
   <channel>
     <title>Could This Be Any More...?</title>
     <link>https://couldthis.com</link>
-    <lastBuildDate>Sat, 07 Oct 2017 07:46:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 21:30:00 -0400</lastBuildDate>
     <language>en-US</language>
     <itunes:author>Aaron and Erica Bushnell</itunes:author>
     <itunes:subtitle>"Could This Be Any More...?" is a podcast featuring Aaron and Erica Bushnell. They topically discuss this rhetorical question with their past experiences, awful jokes and banter.
@@ -22,6 +22,23 @@
     <itunes:category text="Comedy"/>
     <itunes:image href="https://couldthis.com/images/hd.png"/>
     <item>
+      <title>5: Spooky</title>
+      <itunes:title>5: Spooky</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <dc:creator>Aaron and Erica Bushnell</dc:creator>
+      <pubDate>Sun, 29 Oct 2017 21:30:00 -0400</pubDate>
+      <link>https://couldthis.com/5</link>
+      <guid isPermaLink="false">https://couldthis.com/5</guid>
+      <description><![CDATA[<p>We talk about Halloween and our favorite parts of the season. Maybe it isn’t your favorite holiday of the year, but we can’t resist a scary movie with tons of candy. 👻 🎃 🍁</p>
+]]></description>
+      <itunes:author>Could This Be Any More...?</itunes:author>
+      <itunes:subtitle>We're spooked! And also talking about our favorite candy, scary movies and our past costumes.</itunes:subtitle>
+      <itunes:summary>We're spooked! And also talking about our favorite candy, scary movies and our past costumes.</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:37:17</itunes:duration>
+      <itunes:image href="https://couldthis.com/images/hd.png"/>
+      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/5.mp3" length="35967101" type="audio/mpeg"/>
+    </item><item>
       <title>4: Overrated (Restaurants)</title>
       <itunes:title>4: Overrated (Restaurants)</itunes:title>
       <itunes:episode>4</itunes:episode>
