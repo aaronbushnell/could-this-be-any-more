@@ -4,6 +4,6 @@ title: "8-bit"
 date: 2017-08-11 00:01:00
 desc: "Our guest(s) episode! Our family joins us to talk about favorite consoles, games and our celebrity crushes."
 duration: "00:53:14"
-size: "51280629"
+size: "25731183"
 ---
 Alright, so _technically_ we're including 16-bit, 32-bit and 64-bit consoles. But titles are hard, okay? In this episode Aaron and Erica have their family join the show to discuss favorite games, consoles and what kind of impact video games had in their lives. 👾

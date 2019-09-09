@@ -35,7 +35,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>{{post.duration}}</itunes:duration>
       <itunes:image href="{{site.url}}/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/{{post.slug}}.mp3" length="{{post.size}}" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/{{post.slug}}.mp3" length="{{post.size}}" type="audio/mpeg"/>
     </item>{% endfor %}
   </channel>
 </rss>

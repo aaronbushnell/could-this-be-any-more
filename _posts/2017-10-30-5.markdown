@@ -4,7 +4,7 @@ title: "Spooky"
 date: 2017-10-30 01:30:00
 desc: "We're spooked! And also talking about our favorite candy, scary movies and our past costumes."
 duration: "00:37:17"
-size: "35967101"
+size: "18074493"
 ---
 
 We talk about Halloween and our favorite parts of the season. Maybe it isn't your favorite holiday of the year, but we can't resist a scary movie with tons of candy. 👻 🎃 🍁
