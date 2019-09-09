@@ -37,7 +37,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:37:17</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/5.mp3" length="35967101" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/5.mp3" length="18074493" type="audio/mpeg"/>
     </item><item>
       <title>4: Overrated (Restaurants)</title>
       <itunes:title>4: Overrated (Restaurants)</itunes:title>
@@ -54,7 +54,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:35:43</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/4.mp3" length="34291797" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/4.mp3" length="17325648" type="audio/mpeg"/>
     </item><item>
       <title>3: 8-bit</title>
       <itunes:title>3: 8-bit</itunes:title>
@@ -71,7 +71,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:53:14</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/3.mp3" length="51280629" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/3.mp3" length="25731183" type="audio/mpeg"/>
     </item><item>
       <title>2: Humid</title>
       <itunes:title>2: Humid</itunes:title>
@@ -88,7 +88,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:43:16</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/2.mp3" length="41721735" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/2.mp3" length="20951751" type="audio/mpeg"/>
     </item><item>
       <title>1: Awkward</title>
       <itunes:title>1: Awkward</itunes:title>
@@ -105,7 +105,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:36:14</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/1.mp3" length="87151529" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/1.mp3" length="17575778" type="audio/mpeg"/>
     </item><item>
       <title>0: The Pilot</title>
       <itunes:title>0: The Pilot</itunes:title>
@@ -122,7 +122,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>00:06:41</itunes:duration>
       <itunes:image href="https://couldthis.com/images/hd.png"/>
-      <enclosure url="https://s3.amazonaws.com/aaronbushnell/ctbam/0.mp3" length="13023930" type="audio/mpeg"/>
+      <enclosure url="https://couldthis.com/episodes/0.mp3" length="6602405" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
